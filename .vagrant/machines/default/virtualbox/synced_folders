@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant":{"type":"virtualbox","guestpath":"/vagrant","hostpath":"/home/wyatt/Desktop/git_repos/tester","disabled":false,"create":true,"__vagrantfile":true},"/var/www":{"create":true,"type":"virtualbox","owner":"www-data","group":"www-data","guestpath":"/var/www","hostpath":"/home/wyatt/Desktop/git_repos/tester/www","disabled":false,"__vagrantfile":true}}}

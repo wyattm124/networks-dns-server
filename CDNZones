@@ -1,0 +1,9 @@
+$ORIGIN com.     ; designates the start of this zone file in the namespace
+$TTL 1h ; default expiration time of all resource records without their own TTL value
+theserver  IN  A 35.208.146.24 ; these are the IPs of the servers in order
+theserver  IN  A 34.95.172.205
+theserver  IN  A 35.206.236.183
+theserver  IN  A 35.210.42.198
+theserver  IN  A 35.213.117.147
+theserver  IN  A 35.211.231.169
+

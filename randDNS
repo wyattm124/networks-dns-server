@@ -1,0 +1,12 @@
+[Unit]
+Description=test service to automagically spin up the test DNS server
+
+[Service]
+type=simple
+Restart=always
+RestartSec=1
+User=william_maleta@brown.edu
+ExecStart=/vagrant/DNSstart
+
+[Install]
+WantedBy=multi-user.target

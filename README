@@ -1,0 +1,9 @@
+This folder contains the files needed to make a python3 DNS server. Note that to run this server, you will need python3 and the library DNSlib for python3.
+
+For testing, I used the "Vagrantfile" and the "pseudoVagrant" executable to create VM to run the server in. I was running Ubuntu 18.04 and at the time there was a problem with syncing files to a Linux VM from a Ubuntu 18.04 host, so I had to find a Vagrantfile accompanied by the appropriate executable to be able to transfer files from my host to the VM. To test any Linux VM that can run python3 should be fine.
+
+CDNZones is the zone file for the Fall 2019 CS1680 final project, and myZone is a sample Zonefile I used for testing.
+
+The python3 file for the server is randResolver.py, and it can be run with the simple bash script startDNS.
+
+If you want to run the DNS server as a service, you can use systemd on a Linux machine. the Unit file for the server is randDNS. 
